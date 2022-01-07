@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <title>Weather DashBoard</title>
+</head>
+<body>
+    <header><h1>City Weather</h1></header>
+    <main>
+        <input type="text" id="city" class="city">
+        <button class="search-button" type="submit">search</button>
+        <section class="today">
+            <h2 class="todaycityname"></h2>
+            <img class = "todayicon">
+            <p class = "todaytemp"></p>
+            <p class="todaywind"></p>
+            <p class="todayhumidity"></p>
+            <p class="todayuv"></p>
+        </section>
+        <div class = "other5days">
+        <section class="nextday2">
+            <h3 class = "date2"></h3>
+            <img class = "icon2">
+            <p class = "temp2"></p>
+            <p class = "wind2"></p>
+            <p class = "humid2"></p>
+        </section>
+        <section class="nextday3">
+            <h3 class = "date3"></h3>
+            <img class = "icon3">
+            <p class = "temp3"></p>
+            <p class = "wind3"></p>
+            <p class = "humid3"></p>
+        </section>
+        <section class="nextday4">
+            <h3 class = "date4"></h3>
+            <img class = "icon4">
+            <p class = "temp4"></p>
+            <p class = "wind4"></p>
+            <p class = "humid4"></p>
+        </section>
+        <section class="nextday5">
+            <h3 class = "date5"></h3>
+            <img class = "icon5">
+            <p class = "temp5"></p>
+            <p class = "wind5"></p>
+            <p class = "humid5"></p>
+        </section>
+        <section class="nextday6">
+            <h3 class = "date6"></h3>
+            <img class = "icon6">
+            <p class = "temp6"></p>
+            <p class = "wind6"></p>
+            <p class = "humid6"></p>
+        </section>
+        </div>
+
+        <section>
+            <h3>Search History</h3>
+            <p class = "historydata"></p>
+
+        </section>
+    </main>
+    <script src="./asset/weather.js"></script>
+</body>
+</html>

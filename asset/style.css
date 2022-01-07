@@ -1,0 +1,23 @@
+.other5days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nextday2,
+.nextday3,
+.nextday4,
+.nextday5,
+.nextday6 {
+  width: 19%;
+  display: inline;
+  background: blue;
+  color: white;
+}
+
+.today {
+  width: 100%;
+  border: black solid 3px;
+  background: rgb(74, 74, 230);
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
